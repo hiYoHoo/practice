@@ -1,0 +1,66 @@
+$view-offset: 15px;
+$menu-height: 40px;
+$bp-sm: 768;
+$bp-md: 992;
+$bp-lg: 1200;
+$breakpoints: (
+    'sm': 'only screen and (min-width: '+$bp-sm+'px)',
+    'md': 'only screen and (min-width: '+$bp-md+'px)',
+    'lg': 'only screen and (min-width: '+$bp-lg+'px)'
+) !default;
+
+// 单行文本截取
+@mixin ellipsis-line($_w:100%) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: $_w;
+}
+
+// 单行垂直居中文本
+@mixin vertical-center($_h) {
+    box-sizing: content-box;
+    height: $_h;
+    line-height: $_h;
+}
+
+// 透明度
+@mixin opacity($opacity:0.5) {
+    opacity: $opacity;
+    filter: alpha(opacity=$opacity*100);
+}
+
+// 绝对定位
+@mixin abs-pos($top:auto, $left:auto, $bottom:auto, $right:auto) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+
+// 清除浮动
+@mixin clearfix {
+    &::before,
+    &::after {
+        content: "";
+        display: table;
+    }
+    &::after {
+        clear: both;
+        overflow: hidden;
+    }
+}
+
+// 媒体查询
+@mixin respond-to($breakpoint) {
+    $query: map-get($breakpoints, $breakpoint);
+
+    @if not $query {
+        @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.';
+    }
+
+    @media #{if(type-of($query) == 'string', unquote($query), inspect($query))} {
+        @content;
+    }
+}

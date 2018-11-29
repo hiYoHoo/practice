@@ -1,0 +1,17 @@
+@import "@/assets/style/global.scss";
+
+#contents {
+  .link {
+    .chapter {
+      margin-bottom: $view-offset;
+      .title {
+        color: #000;
+        @include ellipsis-line;
+      }
+      .summary {
+        margin-top: 5px;
+        color: #666;
+      }
+    }
+  }
+}

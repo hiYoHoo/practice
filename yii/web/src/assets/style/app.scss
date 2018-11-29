@@ -1,0 +1,12 @@
+@import "@/assets/style/global.scss";
+
+#app {
+  padding: $view-offset 0;
+  .header {
+    padding: 0 $view-offset;
+    @include vertical-center($menu-height);
+  }
+  .footer {
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+@import "@/assets/style/global.scss";
+
+#menu {
+  margin-top: $view-offset;
+  margin-right: $view-offset;
+  padding: 0;
+  height: $menu-height;
+  font-size: 18px;
+  overflow: hidden;
+  @include abs-pos(0, auto, auto, 0);
+  &.is-spread {
+    height: auto;
+  }
+  .link {
+    display: block;
+    padding: 0 $view-offset;
+    color: #333;
+    background-color: #fff;
+    @include vertical-center($menu-height);
+  }
+}

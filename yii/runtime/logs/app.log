@@ -1,0 +1,477 @@
+2018-07-24 00:00:51 [::1][-][0sju2lm6dhnpatuhhhfclipqdh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "say". in /srv/http/yii/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('say', Array)
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /srv/http/yii/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-24 00:00:51 [::1][-][0sju2lm6dhnpatuhhhfclipqdh][info][application] $_GET = [
+    'r' => 'say'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b9b15e4450829784a34d94dd264de8e5d8099e992ad6cd4b1ec2d5ec1c1753c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YW6gb7Ov4OBaPM0BTzgW9AgmOpvcndQ_\";}'
+    'PHPSESSID' => '0sju2lm6dhnpatuhhhfclipqdh'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=b9b15e4450829784a34d94dd264de8e5d8099e992ad6cd4b1ec2d5ec1c1753c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YW6gb7Ov4OBaPM0BTzgW9AgmOpvcndQ_%22%3B%7D; PHPSESSID=0sju2lm6dhnpatuhhhfclipqdh'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '47580'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=say'
+    'REQUEST_URI' => '/yii/web/index.php?r=say'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532361651.926
+    'REQUEST_TIME' => 1532361651
+]
+2018-07-24 00:01:35 [::1][-][0sju2lm6dhnpatuhhhfclipqdh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "layouts/main". in /srv/http/yii/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('layouts/main', Array)
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /srv/http/yii/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-24 00:01:35 [::1][-][0sju2lm6dhnpatuhhhfclipqdh][info][application] $_GET = [
+    'r' => 'layouts/main'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b9b15e4450829784a34d94dd264de8e5d8099e992ad6cd4b1ec2d5ec1c1753c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YW6gb7Ov4OBaPM0BTzgW9AgmOpvcndQ_\";}'
+    'PHPSESSID' => '0sju2lm6dhnpatuhhhfclipqdh'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=b9b15e4450829784a34d94dd264de8e5d8099e992ad6cd4b1ec2d5ec1c1753c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YW6gb7Ov4OBaPM0BTzgW9AgmOpvcndQ_%22%3B%7D; PHPSESSID=0sju2lm6dhnpatuhhhfclipqdh'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '47606'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=layouts/main'
+    'REQUEST_URI' => '/yii/web/index.php?r=layouts/main'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532361695.406
+    'REQUEST_TIME' => 1532361695
+]
+2018-07-24 00:10:20 [::1][-][0sju2lm6dhnpatuhhhfclipqdh][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in /srv/http/yii/vendor/yiisoft/yii2/widgets/Breadcrumbs.php:144
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/widgets/Breadcrumbs.php(144): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', '/srv/http/yii/v...', 144, Array)
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/Widget.php(140): yii\widgets\Breadcrumbs->run()
+#2 /srv/http/yii/views/layouts/main.php(63): yii\base\Widget::widget(Array)
+#3 /srv/http/yii/vendor/yiisoft/yii2/base/View.php(336): require('/srv/http/yii/v...')
+#4 /srv/http/yii/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/srv/http/yii/v...', Array)
+#5 /srv/http/yii/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/srv/http/yii/v...', Array, Object(app\controllers\SiteController))
+#6 /srv/http/yii/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('\nhello world')
+#7 /srv/http/yii/controllers/SiteController.php(131): yii\base\Controller->render('say', Array)
+#8 [internal function]: app\controllers\SiteController->actionSay('hello world')
+#9 /srv/http/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /srv/http/yii/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /srv/http/yii/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('say', Array)
+#12 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/say', Array)
+#13 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#15 {main}
+2018-07-24 00:10:20 [::1][-][0sju2lm6dhnpatuhhhfclipqdh][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'hello world'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b9b15e4450829784a34d94dd264de8e5d8099e992ad6cd4b1ec2d5ec1c1753c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YW6gb7Ov4OBaPM0BTzgW9AgmOpvcndQ_\";}'
+    'PHPSESSID' => '0sju2lm6dhnpatuhhhfclipqdh'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=b9b15e4450829784a34d94dd264de8e5d8099e992ad6cd4b1ec2d5ec1c1753c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YW6gb7Ov4OBaPM0BTzgW9AgmOpvcndQ_%22%3B%7D; PHPSESSID=0sju2lm6dhnpatuhhhfclipqdh'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '50108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/say&message=hello+world'
+    'REQUEST_URI' => '/yii/web/index.php?r=site/say&message=hello+world'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532362220.249
+    'REQUEST_TIME' => 1532362220
+]
+2018-07-24 22:05:25 [::1][-][b168hjefgth0o7gccoqjfqfdpr][error][Error] Error: Class 'app\controllers\EntryForm' not found in /srv/http/yii/controllers/SiteController.php:137
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionEntry()
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /srv/http/yii/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /srv/http/yii/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('entry', Array)
+#4 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/entry', Array)
+#5 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-24 22:05:25 [::1][-][b168hjefgth0o7gccoqjfqfdpr][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b168hjefgth0o7gccoqjfqfdpr'
+    '_csrf' => '0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=b168hjefgth0o7gccoqjfqfdpr; _csrf=0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '51030'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/yii/web/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532441125.926
+    'REQUEST_TIME' => 1532441125
+]
+2018-07-25 00:36:10 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/say.php in /srv/http/yii/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('say.php', Array)
+#1 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/say.php', Array)
+#2 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /srv/http/yii/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-25 00:36:10 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/say.php'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b168hjefgth0o7gccoqjfqfdpr'
+    '_csrf' => '0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=b168hjefgth0o7gccoqjfqfdpr; _csrf=0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '40700'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/say.php'
+    'REQUEST_URI' => '/yii/web/index.php?r=site/say.php'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532450170.546
+    'REQUEST_TIME' => 1532450170
+]
+2018-07-25 23:31:08 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /srv/http/yii/vendor/yiisoft/yii2/web/Request.php:284
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2018-07-25 23:31:08 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b168hjefgth0o7gccoqjfqfdpr'
+    '_csrf' => '0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://localhost/yii/web/test/test.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=b168hjefgth0o7gccoqjfqfdpr; _csrf=0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '35612'
+    'REDIRECT_URL' => '/yii/web/test/main.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/web/test/main.css'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532532668.007
+    'REQUEST_TIME' => 1532532668
+]
+2018-07-25 23:31:08 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /srv/http/yii/vendor/yiisoft/yii2/web/Request.php:284
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(82): yii\web\Request->resolve()
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2018-07-25 23:31:08 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b168hjefgth0o7gccoqjfqfdpr'
+    '_csrf' => '0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://localhost/yii/web/test/test.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=b168hjefgth0o7gccoqjfqfdpr; _csrf=0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '35614'
+    'REDIRECT_URL' => '/yii/web/test/main.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/web/test/main.js'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532532668.007
+    'REQUEST_TIME' => 1532532668
+]
+2018-07-26 00:12:00 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/say". in /srv/http/yii/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/say', Array)
+#1 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in /srv/http/yii/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /srv/http/yii/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /srv/http/yii/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-26 00:12:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b168hjefgth0o7gccoqjfqfdpr'
+    '_csrf' => '0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=b168hjefgth0o7gccoqjfqfdpr; _csrf=0263477f39f6f0f7c9498a9bcec8ea008370878d1be3be9fc3e0ded3a90323d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f77XFt6Wwt3-XrtgAJKJmQBf5K-qqRgH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.34 (Unix) PHP/7.2.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/srv/http'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/srv/http'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/srv/http/yii/web/index.php'
+    'REMOTE_PORT' => '38422'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/say'
+    'REQUEST_URI' => '/yii/web/index.php?r=site/say'
+    'SCRIPT_NAME' => '/yii/web/index.php'
+    'PHP_SELF' => '/yii/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1532535120.712
+    'REQUEST_TIME' => 1532535120
+]
